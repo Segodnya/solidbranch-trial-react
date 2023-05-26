@@ -1,0 +1,21 @@
+.App {
+  width: 320px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 auto;
+}
+
+.Links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.Link {
+  &:hover {
+    font-weight: bold;
+  }
+}

@@ -1,19 +1,23 @@
 import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom';
-import ListPage from './pages/ListPage';
-import SummaryPage from './pages/SummaryPage';
-import './styles.css';
+import ListPage from './pages/ListPage/ListPage';
+import SummaryPage from './pages/SummaryPage/SummaryPage';
+import './App.scss';
 
 function App() {
   return (
     <Router>
-      <div>
+      <div className="App">
         <nav>
-          <ul>
+          <ul className="Links">
             <li>
-              <Link to="/">Summary Page</Link>
+              <Link className="Link" to="/">
+                Summary Page
+              </Link>
             </li>
             <li>
-              <Link to="/navigator">List Page</Link>
+              <Link className="Link" to="/navigator">
+                List Page
+              </Link>
             </li>
           </ul>
         </nav>
