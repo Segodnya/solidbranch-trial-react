@@ -1,0 +1,50 @@
+.summary-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 800px;
+
+  .card {
+    flex-basis: calc(50% - 16px);
+    margin-bottom: 16px;
+    padding: 16px;
+
+    &.heading-card {
+      flex-basis: 100%;
+    }
+
+    &.income-card {
+      background-color: #e6ffe6;
+    }
+
+    &.outcome-card {
+      background-color: #ffe6e6;
+    }
+
+    &.loan-card {
+      background-color: #e6e6ff;
+    }
+
+    &.investment-card {
+      background-color: #ffffe6;
+    }
+
+    .card-title {
+      font-size: 1.25rem;
+      margin-bottom: 8px;
+    }
+
+    .card-text {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 16px;
+    }
+
+    .card-link {
+      color: #007bff;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  }
+}
