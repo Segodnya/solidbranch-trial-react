@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/solidbranch-trial-react/static/css/main.4be4aebb.css",
-    "main.js": "/solidbranch-trial-react/static/js/main.7441128d.js",
+    "main.js": "/solidbranch-trial-react/static/js/main.3bf5b824.js",
     "static/js/787.11e4c10a.chunk.js": "/solidbranch-trial-react/static/js/787.11e4c10a.chunk.js",
     "index.html": "/solidbranch-trial-react/index.html",
     "main.4be4aebb.css.map": "/solidbranch-trial-react/static/css/main.4be4aebb.css.map",
-    "main.7441128d.js.map": "/solidbranch-trial-react/static/js/main.7441128d.js.map",
+    "main.3bf5b824.js.map": "/solidbranch-trial-react/static/js/main.3bf5b824.js.map",
     "787.11e4c10a.chunk.js.map": "/solidbranch-trial-react/static/js/787.11e4c10a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4be4aebb.css",
-    "static/js/main.7441128d.js"
+    "static/js/main.3bf5b824.js"
   ]
 }
